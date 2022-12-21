@@ -1,0 +1,44 @@
+.container{
+    height: 100%;
+    position: relative;
+}
+
+.description{
+    width: 600px;
+    position: absolute;
+    z-index: 999;
+    color: antiquewhite;
+    top: 20%;
+    left: 10%;
+
+}
+.description h1{
+    font-size: 40px;
+}
+.description p{
+    font-size: 22px;
+}
+.carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel span{
+    width: 45px;
+    height: 12px;
+    background-color: bisque;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 3px 2px 2px;
+}
+.shade{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 998;
+    top: 0;
+    left: 0;
+    background-image:linear-gradient(to top,rgba(111, 87, 87, 0),rgb(28, 2, 2)) ;
+}
